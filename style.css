@@ -1,0 +1,628 @@
+@font-face {
+    font-family: 'Fredokeone';
+    src: url("fonts/Fredoka_One/FredokaOne-Regular.ttf") format("truetype");
+}
+
+@font-face {
+    font-family: 'HindMadurai';
+    src: url("fonts/Hind_Madurai/HindMadurai-Regular.ttf") format("truetype");
+}
+
+@font-face {
+    font-family: 'Roboto';
+    src: url("fonts/Roboto/Roboto-Regular.ttf") format("truetype");
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+}
+
+.container {
+    width: 1120px;
+    margin: 0 auto;
+}
+
+header {
+    background-color: #F2CEDA;
+    padding: 10px 0 38px 0;
+}
+
+header .menu {
+    display: flex;
+    width: 100%;
+    align-items: center;
+    justify-content: space-between;
+}
+
+header ul {
+    display: flex;
+    padding: 0;
+}
+
+header ul li {
+    list-style: none;
+    margin-left: 40px;
+}
+
+header ul li a {
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 16px;
+    color: #150101;
+    opacity: 0.6;
+    text-decoration: none;
+    transition: 0.1s linear;
+}
+
+header ul li a:hover {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 18px;
+    color: #D23166;
+}
+
+.btn {
+    width: 165px;
+    height: 49px;
+    background-color: #D23166;
+    border-radius: 5px;
+    border: none;
+    font-family: 'Hind Madurai', sans-serif;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 22px;
+    color: #FAFAFA;
+    cursor: pointer;
+}
+
+header .main-section {
+    display: flex;
+    width: 100%;
+    padding-top: 52px;
+}
+
+.main-section .left-side {
+    padding-top: 144px;
+    width: 60%;
+}
+
+.main-section .left-side .title {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 16px;
+    letter-spacing: 0.1em;
+    color: #0F0101;
+}
+
+.main-text {
+    font-family: Fredokeone, sans-serif;
+    margin-top: 6px;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 50px;
+    line-height: 120.5%;
+    color: #0F0101;
+}
+
+
+.main-text span {
+    color: #D23166;
+}
+
+.main-section .left-side .commit {
+    font-family: HindMadurai, sans-serif;
+    padding-right: 112px;
+    margin-top: 35px;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 27px;
+    color: #0F0101;
+    opacity: 0.6;
+}
+
+.main-section .btn {
+    margin-top: 50px;
+}
+
+.main-section .right-side {
+    width: 40%;
+}
+
+.right-side img {
+    width: 100%;
+}
+
+.delivery {
+    padding: 100px 0 110px 0;
+    background-color: white;
+}
+
+.delivery-items {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.card {
+    width: 250px;
+    height: 200px;
+    border: 1px solid rgba(0, 0, 0, 0.03);
+    border-radius: 7px;
+    box-sizing: border-box;
+    transition: 0.4s ease;
+    padding: 35px 26px 27px 26px;
+    text-align: center;
+}
+
+.card:hover {
+    box-shadow: 20px 20px 50px rgba(0, 0, 0, 0.03);
+}
+
+.card-title {
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 28px;
+    color: #000000;
+    margin-top: 24px;
+    margin-bottom: 9px;
+    font-family: HindMadurai, sans-serif;
+}
+
+.card-commit {
+    font-family: HindMadurai, sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 19px;
+    text-align: center;
+    color: #000000;
+    opacity: 0.6;
+}
+
+.details .main-section {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.details .main-section .left-side {
+    width: 50%;
+}
+
+.details {
+    padding: 47px 0 33px 0;
+    background-color: #F8EDF0;
+}
+
+
+.details .left-side .title {
+    font-weight: 600;
+    font-size: 44px;
+    line-height: 49px;
+    color: #150101;
+    font-family: 'HindMadurai', sans-serif;
+}
+
+.details .left-side .commit {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: #150101;
+    opacity: 0.6;
+    margin-top: 16px;
+    margin-bottom: 35px;
+}
+
+.details .right-side {
+    width: 50%;
+    padding-top: 93px;
+}
+
+.details .right-side img {
+    width: 100%;
+}
+
+.product {
+    padding-top: 137px;
+    padding-bottom: 149px;
+}
+
+.product-title {
+    font-weight: 600;
+    font-size: 44px;
+    line-height: 61px;
+    color: #150101;
+    text-align: center;
+    font-family: 'HindMadurai', sans-serif;
+}
+
+.product .main-menu {
+    width: 80%;
+    display: flex;
+    margin: 0 auto;
+    padding-left: 0;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 64px;
+}
+
+.product .main-menu li {
+    list-style: none;
+    padding-bottom: 10px;
+}
+
+.product .main-menu li a {
+    text-decoration: none;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 21px;
+    color: #000000;
+    opacity: 0.6;
+    transition: 0.5s ease;
+}
+
+.product .main-menu li a:hover {
+    opacity: 1;
+    color: black;
+}
+
+.product .main-menu li:after {
+    content: ' ';
+    display: block;
+    width: 0;
+    height: 3px;
+    background-color: #D64374;
+    transition: 0.5s linear;
+}
+
+.product .main-menu li:hover:after {
+    content: ' ';
+    width: 100%;
+}
+
+.product .products {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    padding-top: 50px;
+}
+
+.products .left-side {
+    width: 50%;
+}
+
+.products .right-side {
+    padding-top: 60px;
+    margin-left: 85px;
+}
+
+.products .title {
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 36px;
+    color: #000000;
+    font-family: 'HindMadurai', sans-serif;
+}
+
+.products .commit {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: #000000;
+    opacity: 0.7;
+    margin: 11px 0 28px 0;
+}
+
+.products .price {
+    margin-bottom: 16px;
+    font-weight: 500;
+    font-size: 26px;
+    line-height: 36px;
+    color: #000000;
+    font-family: 'HindMadurai', sans-serif;
+}
+
+.products .price del {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 28px;
+    color: #000000;
+    opacity: 0.7;
+}
+
+.product .Cayenne-chocolate .right-side, .product .feedback-person .right-side {
+    margin-left: 0;
+}
+
+
+.product .feedback-person .right-side .person {
+    display: flex;
+}
+
+.product .person .person-info {
+    margin-left: 21px;
+}
+
+.product .person .person-info .name {
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 28px;
+    color: #000000;
+    margin-bottom: 5px;
+}
+
+.product .person .person-info .country {
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 14px;
+    color: #000000;
+    opacity: 0.7;
+}
+
+.product .feedback-person .text {
+    margin-top: 46px;
+    margin-bottom: 56px;
+    display: flex;
+}
+
+.product .text div {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: #000000;
+    opacity: 0.7;
+    margin-left: 12px;
+}
+
+.download-menu {
+    background-color: #F8EDF0;
+}
+
+.download-menu .main-section {
+    width: 100%;
+    display: flex;
+}
+
+.download-menu .left-side {
+    width: 35%;
+}
+
+.download-menu .left-side img {
+    transform: translateY(42px);
+}
+
+.download-menu .right-side {
+    width: 60%;
+    padding-top: 190px;
+}
+
+.download-menu .right-side .title {
+    font-weight: 500;
+    font-size: 44px;
+    line-height: 52px;
+    color: #000000;
+}
+
+.download-menu .right-side .commit {
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 21px;
+    letter-spacing: 0.01em;
+    color: #0F0101;
+    opacity: 0.7;
+    margin-top: 20px;
+    margin-bottom: 30px;
+    padding-right: 55px;
+}
+
+.order {
+    margin-bottom: 40px;
+}
+
+.order .main {
+    display: flex;
+    align-items: center;
+    margin-top: 15px;
+}
+
+.order .main div:nth-child(1) {
+    width: 30px;
+    height: 30px;
+    border-radius: 3px;
+    background-color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-right: 10px;
+}
+
+.order .main div:nth-child(2) {
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 26px;
+    color: #000000;
+}
+
+.questions {
+    padding: 190px 0 130px 0;
+}
+
+.questions .title {
+    font-weight: 500;
+    font-size: 44px;
+    line-height: 52px;
+    text-align: center;
+    color: #000000;
+}
+
+.questions .main-section {
+    width: 55%;
+    display: flex;
+    margin: 28px auto 0 auto;
+}
+
+.questions input {
+    height: 74px;
+    width: 503px;
+    background: #FAFAFA;
+    border-radius: 5px;
+    border: none;
+    padding-left: 30px;
+}
+
+.questions input::placeholder {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 16px;
+    color: #0F0000;
+    opacity: 0.6;
+}
+
+.questions .send-btn {
+    width: 134px;
+    height: 74px;
+    background: #D64374;
+    border-radius: 5px;
+    border: none;
+    color: white;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 23px;
+    cursor: pointer;
+}
+
+footer {
+    padding: 70px 0 110px 0;
+    background-color: #0a0808;
+}
+
+footer .main-section {
+    display: flex;
+    width: 100%;
+}
+
+footer .fist-col {
+    width: 207px;
+}
+
+.first-col .text {
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 17px;
+    letter-spacing: 0.01em;
+    color: #FFFFFF;
+    opacity: 0.7;
+    margin-top: 9px;
+    margin-bottom: 25px;
+}
+
+.first-col .follow {
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 14px;
+    color: #FFFFFF;
+    margin-bottom: 8px;
+}
+
+.first-col .social-medias img {
+    margin-right: 10px;
+}
+
+.second-col {
+    padding-top: 73px;
+    margin-left: 37px;
+}
+
+.second-col a {
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 14px;
+    color: #FFFFFF;
+    text-decoration: none;
+    margin-bottom: 10px;
+    display: block;
+    opacity: 0.6;
+    transition: 0.5s linear;
+}
+
+.second-col a:hover {
+    opacity: 1;
+}
+
+.third-col {
+    padding-top: 80px;
+    margin-left: 132px;
+}
+
+.third-col a {
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 14px;
+    color: #FFFFFF;
+    text-decoration: none;
+    margin-bottom: 10px;
+    display: block;
+    opacity: 0.6;
+    transition: 0.5s linear;
+}
+
+.third-col a:hover {
+    opacity: 1;
+}
+
+.fourth-col {
+    padding-top: 86px;
+    margin-left: 151px;
+}
+
+.fourth-col .title {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 19px;
+    color: #FFFFFF;
+}
+
+.fourth-col .search-btn {
+    margin-top: 16px;
+    margin-bottom: 13px;
+    display: flex;
+    width: 100%;
+}
+
+.fourth-col input {
+    height: 55px;
+    width: 263px;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+    border: 2px solid #D64374;
+    background-color: transparent;
+    padding-left: 32px;
+    box-sizing: border-box;
+}
+
+.fourth-col button {
+    background: #D23166;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+    width: 125px;
+    height: 55px;
+    border: none;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 23px;
+    color: #FFFFFF;
+}
+
+.fourth-col img {
+    margin-right: 16px;
+
+}
+
+
+
+
